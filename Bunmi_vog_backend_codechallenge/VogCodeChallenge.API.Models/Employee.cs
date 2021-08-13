@@ -9,8 +9,8 @@ namespace VogCodeChallenge.API.Models
         public int empId { get; set; }
         public string firstName  { get; set; }
         public string lastName { get; set; }
-        public Job Job { get; set; }
-        public Department Department { get; set; }
+        public string JobTitle { get; set; }
+        public int Department_ID { get; set; }
         public string mailing_address { get; set; }
     }
 }

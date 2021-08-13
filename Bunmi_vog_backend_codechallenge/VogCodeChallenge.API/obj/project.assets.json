@@ -1453,6 +1453,16 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XmlDocument.dll": {}
         }
+      },
+      "VogCodeChallenge.API.Models/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/VogCodeChallenge.API.Models.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/VogCodeChallenge.API.Models.dll": {}
+        }
       }
     }
   },
@@ -5229,11 +5239,17 @@
         "system.xml.xmldocument.4.3.0.nupkg.sha512",
         "system.xml.xmldocument.nuspec"
       ]
+    },
+    "VogCodeChallenge.API.Models/1.0.0": {
+      "type": "project",
+      "path": "../VogCodeChallenge.API.Models/VogCodeChallenge.API.Models.csproj",
+      "msbuildProject": "../VogCodeChallenge.API.Models/VogCodeChallenge.API.Models.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
-      "Microsoft.AspNet.WebApi.Core >= 5.2.7"
+      "Microsoft.AspNet.WebApi.Core >= 5.2.7",
+      "VogCodeChallenge.API.Models >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -5269,7 +5285,11 @@
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\olasu\\Documents\\DevOps Training\\VogCodeChallenge\\Bunmi_vog_backend_codechallenge\\VogCodeChallenge.API.Models\\VogCodeChallenge.API.Models.csproj": {
+              "projectPath": "C:\\Users\\olasu\\Documents\\DevOps Training\\VogCodeChallenge\\Bunmi_vog_backend_codechallenge\\VogCodeChallenge.API.Models\\VogCodeChallenge.API.Models.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
