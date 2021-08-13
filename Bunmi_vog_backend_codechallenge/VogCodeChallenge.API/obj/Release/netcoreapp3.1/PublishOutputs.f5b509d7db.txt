@@ -1,0 +1,13 @@
+C:\Users\olasu\Documents\DevOps Training\VogCodeChallenge\Bunmi_vog_backend_codechallenge\VogCodeChallenge.API\obj\Docker\publish\VogCodeChallenge.API.exe
+C:\Users\olasu\Documents\DevOps Training\VogCodeChallenge\Bunmi_vog_backend_codechallenge\VogCodeChallenge.API\obj\Docker\publish\appsettings.Development.json
+C:\Users\olasu\Documents\DevOps Training\VogCodeChallenge\Bunmi_vog_backend_codechallenge\VogCodeChallenge.API\obj\Docker\publish\appsettings.json
+C:\Users\olasu\Documents\DevOps Training\VogCodeChallenge\Bunmi_vog_backend_codechallenge\VogCodeChallenge.API\obj\Docker\publish\VogCodeChallenge.API.dll
+C:\Users\olasu\Documents\DevOps Training\VogCodeChallenge\Bunmi_vog_backend_codechallenge\VogCodeChallenge.API\obj\Docker\publish\VogCodeChallenge.API.deps.json
+C:\Users\olasu\Documents\DevOps Training\VogCodeChallenge\Bunmi_vog_backend_codechallenge\VogCodeChallenge.API\obj\Docker\publish\VogCodeChallenge.API.runtimeconfig.json
+C:\Users\olasu\Documents\DevOps Training\VogCodeChallenge\Bunmi_vog_backend_codechallenge\VogCodeChallenge.API\obj\Docker\publish\VogCodeChallenge.API.pdb
+C:\Users\olasu\Documents\DevOps Training\VogCodeChallenge\Bunmi_vog_backend_codechallenge\VogCodeChallenge.API\obj\Docker\publish\System.Net.Http.Formatting.dll
+C:\Users\olasu\Documents\DevOps Training\VogCodeChallenge\Bunmi_vog_backend_codechallenge\VogCodeChallenge.API\obj\Docker\publish\System.Web.Http.dll
+C:\Users\olasu\Documents\DevOps Training\VogCodeChallenge\Bunmi_vog_backend_codechallenge\VogCodeChallenge.API\obj\Docker\publish\Newtonsoft.Json.dll
+C:\Users\olasu\Documents\DevOps Training\VogCodeChallenge\Bunmi_vog_backend_codechallenge\VogCodeChallenge.API\obj\Docker\publish\Newtonsoft.Json.Bson.dll
+C:\Users\olasu\Documents\DevOps Training\VogCodeChallenge\Bunmi_vog_backend_codechallenge\VogCodeChallenge.API\obj\Docker\publish\VogCodeChallenge.API.Models.dll
+C:\Users\olasu\Documents\DevOps Training\VogCodeChallenge\Bunmi_vog_backend_codechallenge\VogCodeChallenge.API\obj\Docker\publish\VogCodeChallenge.API.Models.pdb
