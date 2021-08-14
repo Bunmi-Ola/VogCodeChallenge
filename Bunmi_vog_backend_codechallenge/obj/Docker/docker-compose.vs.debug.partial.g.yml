@@ -3,7 +3,7 @@ version: '3.4'
 services:
   vogcodechallenge.api:
     image: vogcodechallengeapi:dev
-    container_name: VogCodeChallenge.API_1
+    container_name: VogCodeChallenge.API
     build:
       target: base
       labels:
@@ -12,21 +12,19 @@ services:
     environment:
       - DOTNET_USE_POLLING_FILE_WATCHER=1
       - ASPNETCORE_LOGGING__CONSOLE__DISABLECOLORS=true
-      - NUGET_FALLBACK_PACKAGES=/root/.nuget/fallbackpackages;/root/.nuget/fallbackpackages2
+      #- NUGET_FALLBACK_PACKAGES=$container_paths_to_fallback_packages_vogcodechallenge.api$
     volumes:
       - C:\Users\olasu\Documents\DevOps Training\VogCodeChallenge\Bunmi_vog_backend_codechallenge\VogCodeChallenge.API:/app
       - C:\Users\olasu\Documents\DevOps Training\VogCodeChallenge\Bunmi_vog_backend_codechallenge:/src
       - C:\Users\olasu\vsdbg\vs2017u5:/remote_debugger:rw
-      - C:\Users\olasu\.nuget\packages\:/root/.nuget/packages:ro
-      - C:\Microsoft\Xamarin\NuGet\:/root/.nuget/fallbackpackages:ro
-      - C:\Program Files\dotnet\sdk\NuGetFallbackFolder:/root/.nuget/fallbackpackages2:ro
+#$nuget_volume_mapping_vogcodechallenge.api$
       - ${APPDATA}/ASP.NET/Https:/root/.aspnet/https:ro
       - ${APPDATA}/Microsoft/UserSecrets:/root/.microsoft/usersecrets:ro
 
     entrypoint: tail -f /dev/null
     labels:
       com.microsoft.visualstudio.debuggee.program: "dotnet"
-      com.microsoft.visualstudio.debuggee.arguments: " --additionalProbingPath /root/.nuget/packages --additionalProbingPath /root/.nuget/fallbackpackages --additionalProbingPath /root/.nuget/fallbackpackages2  \"/app/bin/Debug/netcoreapp3.1/VogCodeChallenge.API.dll\""
+      #com.microsoft.visualstudio.debuggee.arguments: " $debuggee_arguments_probing_paths_vogcodechallenge.api$ \"/app/bin/Debug/netcoreapp3.1/VogCodeChallenge.API.dll\""
       com.microsoft.visualstudio.debuggee.workingdirectory: "/app"
       com.microsoft.visualstudio.debuggee.killprogram: "/bin/sh -c \"if PID=$$(pidof dotnet); then kill $$PID; fi\""
     tty: true
