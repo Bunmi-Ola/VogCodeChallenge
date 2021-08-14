@@ -27,7 +27,9 @@ namespace VogCodeChallenge.API
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllers();
-            //services.AddSingleton<EmployeeRepository, IEmployeeRepository();
+
+            services.AddScoped<EmployeeRepository, IEmployeeRepository>();
+           
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

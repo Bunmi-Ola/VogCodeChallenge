@@ -1,0 +1,17 @@
+C:\Users\olasu\Documents\DevOps Training\VogCodeChallenge\VogCodeChallenge.AWSLambda\bin\Debug\netcoreapp3.1\VogCodeChallenge.AWSLambda.deps.json
+C:\Users\olasu\Documents\DevOps Training\VogCodeChallenge\VogCodeChallenge.AWSLambda\bin\Debug\netcoreapp3.1\VogCodeChallenge.AWSLambda.runtimeconfig.json
+C:\Users\olasu\Documents\DevOps Training\VogCodeChallenge\VogCodeChallenge.AWSLambda\bin\Debug\netcoreapp3.1\VogCodeChallenge.AWSLambda.runtimeconfig.dev.json
+C:\Users\olasu\Documents\DevOps Training\VogCodeChallenge\VogCodeChallenge.AWSLambda\bin\Debug\netcoreapp3.1\VogCodeChallenge.AWSLambda.dll
+C:\Users\olasu\Documents\DevOps Training\VogCodeChallenge\VogCodeChallenge.AWSLambda\bin\Debug\netcoreapp3.1\VogCodeChallenge.AWSLambda.pdb
+C:\Users\olasu\Documents\DevOps Training\VogCodeChallenge\VogCodeChallenge.AWSLambda\bin\Debug\netcoreapp3.1\Amazon.Lambda.Core.dll
+C:\Users\olasu\Documents\DevOps Training\VogCodeChallenge\VogCodeChallenge.AWSLambda\bin\Debug\netcoreapp3.1\Amazon.Lambda.DynamoDBEvents.dll
+C:\Users\olasu\Documents\DevOps Training\VogCodeChallenge\VogCodeChallenge.AWSLambda\bin\Debug\netcoreapp3.1\Amazon.Lambda.Serialization.SystemTextJson.dll
+C:\Users\olasu\Documents\DevOps Training\VogCodeChallenge\VogCodeChallenge.AWSLambda\bin\Debug\netcoreapp3.1\AWSSDK.Core.dll
+C:\Users\olasu\Documents\DevOps Training\VogCodeChallenge\VogCodeChallenge.AWSLambda\bin\Debug\netcoreapp3.1\AWSSDK.DynamoDBv2.dll
+C:\Users\olasu\Documents\DevOps Training\VogCodeChallenge\VogCodeChallenge.AWSLambda\obj\Debug\netcoreapp3.1\VogCodeChallenge.AWSLambda.AssemblyInfoInputs.cache
+C:\Users\olasu\Documents\DevOps Training\VogCodeChallenge\VogCodeChallenge.AWSLambda\obj\Debug\netcoreapp3.1\VogCodeChallenge.AWSLambda.AssemblyInfo.cs
+C:\Users\olasu\Documents\DevOps Training\VogCodeChallenge\VogCodeChallenge.AWSLambda\obj\Debug\netcoreapp3.1\VogCodeChallenge.AWSLambda.csproj.CoreCompileInputs.cache
+C:\Users\olasu\Documents\DevOps Training\VogCodeChallenge\VogCodeChallenge.AWSLambda\obj\Debug\netcoreapp3.1\VogCodeChallenge.AWSLambda.csproj.CopyComplete
+C:\Users\olasu\Documents\DevOps Training\VogCodeChallenge\VogCodeChallenge.AWSLambda\obj\Debug\netcoreapp3.1\VogCodeChallenge.AWSLambda.dll
+C:\Users\olasu\Documents\DevOps Training\VogCodeChallenge\VogCodeChallenge.AWSLambda\obj\Debug\netcoreapp3.1\VogCodeChallenge.AWSLambda.pdb
+C:\Users\olasu\Documents\DevOps Training\VogCodeChallenge\VogCodeChallenge.AWSLambda\obj\Debug\netcoreapp3.1\VogCodeChallenge.AWSLambda.genruntimeconfig.cache

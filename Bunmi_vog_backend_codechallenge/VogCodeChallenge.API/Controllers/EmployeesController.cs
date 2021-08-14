@@ -7,34 +7,33 @@ using VogCodeChallenge.API.Models;
 using VogCodeChallenge.API.Services;
 
 namespace VogCodeChallenge.API.Controllers
-{    
+{
+
+
 
     [Route("api/[controller]")]
     [ApiController]
     public class EmployeesController : ControllerBase
     {
-        private readonly EmployeeRepository _employeeRepository;
-
-        public EmployeesController (EmployeeRepository employeeRepository)
+        public EmployeesController(EmployeeRepository employeelist)
         {
-            this._employeeRepository = employeeRepository;
+            _employeelist = employeelist;
         }
+        public EmployeeRepository _employeelist { get; set; }
 
-        [HttpGet]
-        [Route("[action]")]
-        [Route("api/Employee")]
+        [HttpGet]       
         public IEnumerable<Employee> GetAll()
         {
-            return _employeeRepository.GetAll();
+            
+            return _employeelist.GetAll().ToList();          
         }
 
-        [HttpGet]
-        [Route("[action]")]
-        [Route("api/employees/department/{departmentId}")]        
-       // [Route("{Id}")]
+
+        [HttpGet("{department}/{id}")]        
+        [Route("GetEmployeeByDepartmentId")]       
         public IEnumerable<Employee> Get(int Id)
         {
-            var EmployeeList = _employeeRepository.GetAll().ToList().Where(x => x.Department_ID == Id);
+            var EmployeeList = _employeelist.GetAll().ToList().Where(x => x.Department_ID == Id);
             return EmployeeList;
         }
     }

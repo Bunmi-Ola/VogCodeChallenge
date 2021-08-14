@@ -4,7 +4,6 @@ C:\Users\olasu\Documents\DevOps Training\VogCodeChallenge\VogCodeChallenge.Quest
 C:\Users\olasu\Documents\DevOps Training\VogCodeChallenge\VogCodeChallenge.QuestionClass\bin\Debug\netcoreapp3.1\VogCodeChallenge.QuestionClass.runtimeconfig.dev.json
 C:\Users\olasu\Documents\DevOps Training\VogCodeChallenge\VogCodeChallenge.QuestionClass\bin\Debug\netcoreapp3.1\VogCodeChallenge.QuestionClass.dll
 C:\Users\olasu\Documents\DevOps Training\VogCodeChallenge\VogCodeChallenge.QuestionClass\bin\Debug\netcoreapp3.1\VogCodeChallenge.QuestionClass.pdb
-C:\Users\olasu\Documents\DevOps Training\VogCodeChallenge\VogCodeChallenge.QuestionClass\obj\Debug\netcoreapp3.1\VogCodeChallenge.QuestionClass.csprojAssemblyReference.cache
 C:\Users\olasu\Documents\DevOps Training\VogCodeChallenge\VogCodeChallenge.QuestionClass\obj\Debug\netcoreapp3.1\VogCodeChallenge.QuestionClass.AssemblyInfoInputs.cache
 C:\Users\olasu\Documents\DevOps Training\VogCodeChallenge\VogCodeChallenge.QuestionClass\obj\Debug\netcoreapp3.1\VogCodeChallenge.QuestionClass.AssemblyInfo.cs
 C:\Users\olasu\Documents\DevOps Training\VogCodeChallenge\VogCodeChallenge.QuestionClass\obj\Debug\netcoreapp3.1\VogCodeChallenge.QuestionClass.csproj.CoreCompileInputs.cache

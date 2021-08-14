@@ -1,0 +1,10 @@
+C:\Users\olasu\Documents\DevOps Training\VogCodeChallenge\Bunmi_vog_backend_codechallenge\bin\Debug\appsettings.Development.json
+C:\Users\olasu\Documents\DevOps Training\VogCodeChallenge\Bunmi_vog_backend_codechallenge\bin\Debug\appsettings.json
+C:\Users\olasu\Documents\DevOps Training\VogCodeChallenge\Bunmi_vog_backend_codechallenge\bin\Debug\VogCodeChallenge.API.exe
+C:\Users\olasu\Documents\DevOps Training\VogCodeChallenge\Bunmi_vog_backend_codechallenge\bin\Debug\VogCodeChallenge.API.dll
+C:\Users\olasu\Documents\DevOps Training\VogCodeChallenge\Bunmi_vog_backend_codechallenge\bin\Debug\VogCodeChallenge.API.Models.dll
+C:\Users\olasu\Documents\DevOps Training\VogCodeChallenge\Bunmi_vog_backend_codechallenge\bin\Debug\VogCodeChallenge.API.pdb
+C:\Users\olasu\Documents\DevOps Training\VogCodeChallenge\Bunmi_vog_backend_codechallenge\bin\Debug\VogCodeChallenge.API.Models.pdb
+C:\Users\olasu\Documents\DevOps Training\VogCodeChallenge\Bunmi_vog_backend_codechallenge\obj\Debug\docker-compose.dcprojAssemblyReference.cache
+C:\Users\olasu\Documents\DevOps Training\VogCodeChallenge\Bunmi_vog_backend_codechallenge\obj\Debug\docker-compose.dcproj.CoreCompileInputs.cache
+C:\Users\olasu\Documents\DevOps Training\VogCodeChallenge\Bunmi_vog_backend_codechallenge\obj\Debug\docker-compose.dcproj.CopyComplete

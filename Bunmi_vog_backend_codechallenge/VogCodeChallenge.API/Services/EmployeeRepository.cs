@@ -8,6 +8,7 @@ namespace VogCodeChallenge.API.Services
 {
     public interface EmployeeRepository
     {
-        IEnumerable<Employee> GetAll();       
+        IEnumerable<Employee> GetAll();
+       
     }
 }
