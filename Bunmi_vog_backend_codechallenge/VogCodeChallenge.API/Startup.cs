@@ -10,6 +10,8 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using VogCodeChallenge.API.Models;
+using VogCodeChallenge.API.Services;
 
 namespace VogCodeChallenge.API
 {
@@ -18,6 +20,8 @@ namespace VogCodeChallenge.API
         public Startup(IConfiguration configuration)
         {
             Configuration = configuration;
+            SqlHelper.connectionString = ConfigurationExtensions.GetConnectionString(this.Configuration, "DefaultConnection");
+
         }
 
         public IConfiguration Configuration { get; }
@@ -26,6 +30,9 @@ namespace VogCodeChallenge.API
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllers();
+
+            services.AddScoped<EmployeeRepository, IEmployeeRepository>();
+           
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
