@@ -33,6 +33,7 @@ namespace VogCodeChallenge.API.Controllers
         [Route("GetEmployeeByDepartmentId")]       
         public IEnumerable<Employee> Get(int Id)
         {
+
             var EmployeeList = _employeelist.GetAll().ToList().Where(x => x.Department_ID == Id);
             return EmployeeList;
         }

@@ -10,3 +10,4 @@ C:\Users\olasu\Documents\DevOps Training\VogCodeChallenge\VogCodeChallenge.Quest
 C:\Users\olasu\Documents\DevOps Training\VogCodeChallenge\VogCodeChallenge.QuestionClass\obj\Debug\netcoreapp3.1\VogCodeChallenge.QuestionClass.dll
 C:\Users\olasu\Documents\DevOps Training\VogCodeChallenge\VogCodeChallenge.QuestionClass\obj\Debug\netcoreapp3.1\VogCodeChallenge.QuestionClass.pdb
 C:\Users\olasu\Documents\DevOps Training\VogCodeChallenge\VogCodeChallenge.QuestionClass\obj\Debug\netcoreapp3.1\VogCodeChallenge.QuestionClass.genruntimeconfig.cache
+C:\Users\olasu\Documents\DevOps Training\VogCodeChallenge\VogCodeChallenge.QuestionClass\obj\Debug\netcoreapp3.1\VogCodeChallenge.QuestionClass.csprojAssemblyReference.cache

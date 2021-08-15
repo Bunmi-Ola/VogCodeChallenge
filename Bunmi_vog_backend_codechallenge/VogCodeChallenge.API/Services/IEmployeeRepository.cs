@@ -15,7 +15,7 @@ namespace VogCodeChallenge.API.Services
         {
             ListAll = new List<Employee>()
             {
-                new Employee(){empId= 1, firstName="Joe", lastName="Steve", Department_ID=101, JobTitle="Business Analyst", mailing_address= "1 Uplands drive, Calgary, AB A1A 2B2" },
+                new Employee(){empId= 1, firstName="Joe", lastName="Steve", JobTitle="Business Analyst", Department_ID=101,  mailing_address= "1 Uplands drive, Calgary, AB A1A 2B2" },
                 new Employee(){empId= 2, firstName="John", lastName="David", Department_ID=102, JobTitle="Finance Analyst",  mailing_address= "300 ring Road, Calgary, AB A5A 2B3" },
                 new Employee(){empId= 3, firstName="Ghazi", lastName="Sam", Department_ID=101, JobTitle="Software Developer",  mailing_address= "23rd Avenue, Calgary, AB A3T 1KE"},
 

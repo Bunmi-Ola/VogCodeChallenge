@@ -15,3 +15,4 @@ C:\Users\olasu\Documents\DevOps Training\VogCodeChallenge\VogCodeChallenge.AWSLa
 C:\Users\olasu\Documents\DevOps Training\VogCodeChallenge\VogCodeChallenge.AWSLambda\obj\Debug\netcoreapp3.1\VogCodeChallenge.AWSLambda.dll
 C:\Users\olasu\Documents\DevOps Training\VogCodeChallenge\VogCodeChallenge.AWSLambda\obj\Debug\netcoreapp3.1\VogCodeChallenge.AWSLambda.pdb
 C:\Users\olasu\Documents\DevOps Training\VogCodeChallenge\VogCodeChallenge.AWSLambda\obj\Debug\netcoreapp3.1\VogCodeChallenge.AWSLambda.genruntimeconfig.cache
+C:\Users\olasu\Documents\DevOps Training\VogCodeChallenge\VogCodeChallenge.AWSLambda\obj\Debug\netcoreapp3.1\VogCodeChallenge.AWSLambda.csprojAssemblyReference.cache
