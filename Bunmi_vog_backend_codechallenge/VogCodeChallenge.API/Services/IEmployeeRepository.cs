@@ -22,6 +22,7 @@ namespace VogCodeChallenge.API.Services
             };
         }
 
+        //implement interface EmployeeRepository.getall()
         public IEnumerable<Employee> GetAll()
         {
             return ListAll;

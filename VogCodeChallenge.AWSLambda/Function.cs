@@ -13,16 +13,19 @@ namespace VogCodeChallenge.AWSLambda
 {
     public class Function
     {
+        //8:a simple lambda to catch DynamoDbEvent, 
+        //Debug/Mock the lambda function, 
+        //log (console log) the Id of updated DynamoDb entries.
         public void FunctionHandler(DynamoDBEvent dynamoEvent, ILambdaContext context)
         {
             context.Logger.LogLine($"Beginning to process {dynamoEvent.Records.Count} records...");
 
             foreach (var record in dynamoEvent.Records)
             {
-                //context.Logger.LogLine($"Event ID: {record.EventID}");
-                //context.Logger.LogLine($"Event Name: {record.EventName}");
+                context.Logger.LogLine($"Event ID: {record.EventID}");
+                context.Logger.LogLine($"Event Name: {record.EventName}");
 
-                // TODO: Add business logic processing the record.Dynamodb object.
+           
 
                 if (record.EventName == "INSERT")
                 {

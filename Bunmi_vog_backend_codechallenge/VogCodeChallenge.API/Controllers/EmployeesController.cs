@@ -8,8 +8,7 @@ using VogCodeChallenge.API.Services;
 
 namespace VogCodeChallenge.API.Controllers
 {
-
-
+    //Q4: RESTful API controller for employees and provide these two endpoints
 
     [Route("api/[controller]")]
     [ApiController]

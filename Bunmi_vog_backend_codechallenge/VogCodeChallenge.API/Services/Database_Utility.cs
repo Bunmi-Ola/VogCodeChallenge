@@ -7,14 +7,16 @@ using VogCodeChallenge.API.Models;
 
 namespace VogCodeChallenge.API.Services
 {
+    //  Q6
     public class Database_Utility : EmployeeRepository
     {
-       
+        //implement interface EmployeeRepository.getall()  
         public IEnumerable<Employee> GetAll()
         {
             return GetAllEmployee();
         }
 
+        //Get all employees
         public IList<Employee> GetAllEmployee()
         {
             IList<Employee> getAll = new List<Employee>();
@@ -44,6 +46,7 @@ namespace VogCodeChallenge.API.Services
             return getAll;
         }
 
+        //get employees by Department ID
         public Employee getEmployeeByDeptID(int id)
         {
             List<Employee> employee = new List<Employee>();
@@ -75,6 +78,7 @@ namespace VogCodeChallenge.API.Services
 
         }
 
+        //get employees by employee ID
         public Employee getEmployeeByID(int id)
         {
             List<Employee> employee = new List<Employee>();
@@ -105,6 +109,8 @@ namespace VogCodeChallenge.API.Services
             return employee[0];
 
         }
+
+        //insert new employee details
         public void EmployeeInsert(Employee employee)
         {
 
@@ -124,6 +130,8 @@ namespace VogCodeChallenge.API.Services
             cmd.ExecuteNonQuery();
             con.Close();
         }
+
+        //update existing employee info
         public void EmployeeUpdate(Employee employee)
         {
             SqlConnection con = SqlHelper.GetConnection();
@@ -145,6 +153,7 @@ namespace VogCodeChallenge.API.Services
             con.Close();
         }
 
+        //Delete an employee detail
         public void EmployeeToDelete(int id)
         {
             SqlConnection con = SqlHelper.GetConnection();

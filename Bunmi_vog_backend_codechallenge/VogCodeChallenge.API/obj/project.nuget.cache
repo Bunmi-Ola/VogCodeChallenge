@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "+kRQ5nGtP+5bicpdXEvNX6oOBsn5dWQ/DitMvPdRycHM81nHU0zPNGpul/1iyqqAPgCZnjWTKru/gS5u7Ild9Q==",
+  "dgSpecHash": "sFhPhA6l1AeCEFwvsAXB6ZtCyVMH8fZkT2l7ZeBKyOLXzYlhg5QW0QqJNEh2D4ezvFH6cyT7K015rZjALo8iDA==",
   "success": true,
   "projectFilePath": "C:\\Users\\olasu\\Documents\\DevOps Training\\VogCodeChallenge\\Bunmi_vog_backend_codechallenge\\VogCodeChallenge.API\\VogCodeChallenge.API.csproj",
   "expectedPackageFiles": [
@@ -43,6 +43,7 @@
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.collections.nongeneric\\4.3.0\\system.collections.nongeneric.4.3.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.collections.specialized\\4.3.0\\system.collections.specialized.4.3.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.componentmodel\\4.3.0\\system.componentmodel.4.3.0.nupkg.sha512",
+    "C:\\Users\\olasu\\.nuget\\packages\\system.componentmodel.annotations\\5.0.0\\system.componentmodel.annotations.5.0.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.componentmodel.primitives\\4.3.0\\system.componentmodel.primitives.4.3.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.componentmodel.typeconverter\\4.3.0\\system.componentmodel.typeconverter.4.3.0.nupkg.sha512",
     "C:\\Users\\olasu\\.nuget\\packages\\system.configuration.configurationmanager\\5.0.0\\system.configuration.configurationmanager.5.0.0.nupkg.sha512",
